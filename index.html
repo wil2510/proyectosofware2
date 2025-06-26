@@ -12,7 +12,7 @@
       text-align: center;
     }
     .parrafo {
-        font-size: 22px;
+      font-size: 22px;
       font-family: Arial, Helvetica, sans-serif;
       text-align: justify;
       color: yellow;
@@ -24,8 +24,31 @@
       text-align: unset;
       color: brown;
     }
+    .parrafo3 {
+      font-size: 22px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      text-align: start;
+      color: chartreuse;
+    }
+    img {
+      width: 30%;
+      height: auto;
+      border-radius: 15px;
+    }
+
+
   </style>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#marcador1">home</a></li>
+        <li><a href="#marcador2">nosotros</a></li>
+        <li><a href="#marcador3">proyecto</a></li>
+        <li><a href="#marcador4">contacto</a></li>
+      </ul>
+    </nav>
+    <h1 id="marcador3">fotos</h1>
+    <img class="img01" src="imagen/imagen1.jpg" alt="imagen1" title="tigre" />
     <table border="1">
       <tr>
         <td>dato1</td>
@@ -52,17 +75,23 @@
         <td>dato16</td>
       </tr>
     </table>
-    <p class="parrafo">
+    <p id="marcador1" class="parrafo">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic
       voluptatum fugit doloribus magni! Enim nihil odio tempore ipsum, maiores
       dicta, atque magni commodi, ratione soluta porro ipsa dignissimos. Ab.
     </p>
     <br />
-    <p class="parrafo2">
+    <p id="marcador2" class="parrafo2">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
       asperiores consectetur perferendis exercitationem et placeat earum iure
       iste corporis, voluptatibus alias perspiciatis sapiente beatae laudantium,
       cupiditate est. Provident, laboriosam sapiente.
+    </p>
+    <br />
+    <p class="parrafo3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corrupti
+      libero ipsam voluptates quibusdam corporis pariatur nisi voluptatem quia
+      deserunt in dolore, autem quasi amet, harum eos, sequi tenetur reiciendis.
     </p>
   </body>
 </html>
